@@ -1,0 +1,39 @@
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.flex-item{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 2opx;
+    color: white;
+    text-align: center;
+    margin: 3px
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse li{
+    background-color: red;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column li{
+    background-color: orange;
+}
+.column{
+    float: left;
+    flex-direction: column;
+}
+.column-reverse li{
+    background-color: purple;
+}
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
