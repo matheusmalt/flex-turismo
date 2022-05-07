@@ -1,39 +1,32 @@
 .flex-container{
-    margin: 0;
-    padding: 0;
     display: flex;
-    list-style: none;
+    height: 150px;
+    border: 1px solid black;
+    min-width: 100px;
+    max-width: 300px;
 }
-.flex-item{
-    background-color: blue;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    font-size: 2opx;
-    color: white;
+.item{
+    font-size: 24px;
+    height: 50%;
+    width: 100px;
     text-align: center;
-    margin: 3px
+    line-height: 50px;
 }
-.row{
-    flex-direction: row;
+.blue{
+    background-color: blue;
 }
-.row-reverse li{
+.green{
+    background-color: green;
+}
+.red{
     background-color: red;
 }
-.row-reverse{
-    flex-direction: row-reverse;
+.nowrap{
+    flex-wrap: nowrap;
 }
-.column li{
-    background-color: orange;
+.wrap{
+    flex-wrap: wrap;
 }
-.column{
-    float: left;
-    flex-direction: column;
-}
-.column-reverse li{
-    background-color: purple;
-}
-.column-reverse{
-    float: right;
-    flex-direction: column-reverse;
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
 }
